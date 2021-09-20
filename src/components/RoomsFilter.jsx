@@ -8,7 +8,6 @@ const getUnique = (items, value) => {
 function RoomsFilter({ rooms }) {
   const {
     handleChange,
-    filterRooms,
     type,
     capacity,
     price,

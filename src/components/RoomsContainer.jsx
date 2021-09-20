@@ -14,7 +14,6 @@ function RoomsContainer() {
         }
         return (
           <div>
-            hello from rooms container component
             <RoomsFilter rooms={rooms} />
             <RoomsList rooms={sortedRooms} />
           </div>
